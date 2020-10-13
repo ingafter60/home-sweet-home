@@ -25,3 +25,4 @@
 	> 4.2 Create Rooms App
 	> 4.3 Register Core App and Rooms App to settings and modified settings file
 	> 4.4 Create Abstrac model 'TimeStampedModel'
+	> 4.5 Install django-countries and register it to settings
