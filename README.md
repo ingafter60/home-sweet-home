@@ -27,3 +27,5 @@
 	> 4.4 Create Abstrac model 'TimeStampedModel'
 	> 4.5 Install django-countries and register it to settings
 	> 4.6 Modify core model to use auto_now and auto_now_add
+	> 4.7 Add fields to Room model & run migration
+	> 4.8 Add ManyToMany Rel between room and room type
