@@ -19,6 +19,7 @@
 	> 3.5 UserAdmin + CustomAdmin 
 	> 3.6 Modified README.me
 
-## 4. Core App & Room App
+## 4. Core App & Rooms App
 
 	> 4.1 Create Core App
+	> 4.2 Create Rooms App
