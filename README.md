@@ -13,3 +13,5 @@
 #3.3 Finishing User Model 
 
 #3.4 Falling in Love with Admin Panel 
+
+#3.5 UserAdmin + CustomAdmin 
