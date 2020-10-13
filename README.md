@@ -11,3 +11,5 @@
 #2.6 Creating the App: users
 
 #3.3 Finishing User Model 
+
+#3.4 Falling in Love with Admin Panel 
