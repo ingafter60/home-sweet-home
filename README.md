@@ -9,3 +9,5 @@
 #2.0 Creating a Django Project 
 
 #2.6 Creating the App: users
+
+#3.3 Finishing User Model 
