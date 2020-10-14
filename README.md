@@ -29,3 +29,5 @@
 	> 4.6 Modify core model to use auto_now and auto_now_add
 	> 4.7 Add fields to Room model & run migration
 	> 4.8 Add ManyToMany Rel between room and room type
+	> 4.9 Add to Room model: on_delete behavior, and fields for: Amenity, Faciliy, HouseRule by using AbstracItem
+	
