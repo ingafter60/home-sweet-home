@@ -32,5 +32,6 @@
 	> 4.9 Add to Room model: on_delete behavior, and fields for: Amenity, Faciliy, HouseRule by using AbstracItem
 	> 4.10 Add verbose_name and verbose_name_plural
 	> 4.11 Make amenities, facilities, and house_rules fields blank true
+	> 4.12 Create Photo class and add relationship with room
 
 	
