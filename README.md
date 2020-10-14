@@ -34,6 +34,7 @@
 	> 4.11 Make amenities, facilities, and house_rules fields blank true
 	> 4.12 Create Photo class and add relationship with room
 	> 4.15 Use string for class  name
-	
+	> 4.16 Register Photo to admin and add 'notes' to each of registered class
+
 
 	
