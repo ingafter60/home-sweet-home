@@ -36,8 +36,8 @@
 	> 4.15 Use string for class  name
 	> 4.16 Register Photo to admin and add 'notes' to each of registered class
 
-	> Testing a link
-	<a href="https://github.com/ingafter60/home-sweet-home">Home Sweet Home</a>
+## 5. Reviews
 
+	> 5.1 Create a new app 'reviews' and register it to settings
 
 	
