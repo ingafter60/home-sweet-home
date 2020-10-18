@@ -92,3 +92,8 @@
 
 	> 7.1 Create lists app and register it to settings
 	> 7.2 Create List model, run migration and register it to admin
+
+
+## 8. Conversations
+
+	8.1 Create conversations app and register it to settings
