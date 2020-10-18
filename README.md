@@ -59,3 +59,4 @@
 		+---------------+-------------+------+-----+---------+----------------+ 
 		12 rows in set (0.03 sec)                                               
 
+	> 5.3 Add string method to Review model to show the review in admin panel
