@@ -99,3 +99,4 @@
 	> 8.1 Create conversations app and register it to settings
 	> 8.2 Creare Reservation model with ManyToMay rel with User, run migration and register it to admin
 	> 8.3 Creare Message model with OneToMay rel with User and with Conversation, run migration and register it to admin
+	> 8.4 Fixing error: turn the method of the class Conversation to string
