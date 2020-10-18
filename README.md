@@ -96,4 +96,5 @@
 
 ## 8. Conversations
 
-	8.1 Create conversations app and register it to settings
+	> 8.1 Create conversations app and register it to settings
+	> 8.2 Creare Reservation model with ManyToMay rel with User, run migration and register it to admin
