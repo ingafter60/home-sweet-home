@@ -92,7 +92,17 @@
 
 	> 7.1 Create lists app and register it to settings
 	> 7.2 Create List model, run migration and register it to admin
-
+	mysql> desc lists_list;
+	+---------+-------------+------+-----+---------+----------------+
+	| Field   | Type        | Null | Key | Default | Extra          |
+	+---------+-------------+------+-----+---------+----------------+
+	| id      | int(11)     | NO   | PRI | NULL    | auto_increment |
+	| created | datetime(6) | NO   |     | NULL    |                |
+	| updated | datetime(6) | NO   |     | NULL    |                |
+	| name    | varchar(80) | NO   |     | NULL    |                |
+	| user_id | int(11)     | NO   | UNI | NULL    |                |
+	+---------+-------------+------+-----+---------+----------------+
+	5 rows in set (0.00 sec)
 
 ## 8. Conversations
 
@@ -100,3 +110,26 @@
 	> 8.2 Creare Reservation model with ManyToMay rel with User, run migration and register it to admin
 	> 8.3 Creare Message model with OneToMay rel with User and with Conversation, run migration and register it to admin
 	> 8.4 Fixing error: turn the method of the class Conversation to string
+	mysql> desc conversations_conversation;
+	+---------+-------------+------+-----+---------+----------------+
+	| Field   | Type        | Null | Key | Default | Extra          |
+	+---------+-------------+------+-----+---------+----------------+
+	| id      | int(11)     | NO   | PRI | NULL    | auto_increment |
+	| created | datetime(6) | NO   |     | NULL    |                |
+	| updated | datetime(6) | NO   |     | NULL    |                |
+	+---------+-------------+------+-----+---------+----------------+
+	3 rows in set (0.00 sec)
+
+	mysql> desc conversations_message;
+	+-----------------+-------------+------+-----+---------+----------------+
+	| Field           | Type        | Null | Key | Default | Extra          |
+	+-----------------+-------------+------+-----+---------+----------------+
+	| id              | int(11)     | NO   | PRI | NULL    | auto_increment |
+	| created         | datetime(6) | NO   |     | NULL    |                |
+	| updated         | datetime(6) | NO   |     | NULL    |                |
+	| message         | longtext    | NO   |     | NULL    |                |
+	| conversation_id | int(11)     | NO   | MUL | NULL    |                |
+	| user_id         | int(11)     | NO   | MUL | NULL    |                |
+	+-----------------+-------------+------+-----+---------+----------------+
+	6 rows in set (0.00 sec)
+	> 8.5 Modified README file
