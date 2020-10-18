@@ -91,3 +91,4 @@
 ## 7. Lists
 
 	> 7.1 Create lists app and register it to settings
+	> 7.2 Create List model, run migration and register it to admin
