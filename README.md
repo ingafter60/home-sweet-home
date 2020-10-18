@@ -39,5 +39,23 @@
 ## 5. Reviews
 
 	> 5.1 Create a new app 'reviews' and register it to settings
+	> 5.2 Create Review model, run migration and Register Review model to admin 
+		mysql> desc reviews_review;                                             
+		+---------------+-------------+------+-----+---------+----------------+ 
+		| Field         | Type        | Null | Key | Default | Extra          | 
+		+---------------+-------------+------+-----+---------+----------------+ 
+		| id            | int(11)     | NO   | PRI | NULL    | auto_increment | 
+		| created       | datetime(6) | NO   |     | NULL    |                | 
+		| updated       | datetime(6) | NO   |     | NULL    |                | 
+		| review        | longtext    | NO   |     | NULL    |                | 
+		| accuracy      | int(11)     | NO   |     | NULL    |                | 
+		| communication | int(11)     | NO   |     | NULL    |                | 
+		| cleanliness   | int(11)     | NO   |     | NULL    |                | 
+		| location      | int(11)     | NO   |     | NULL    |                | 
+		| check_in      | int(11)     | NO   |     | NULL    |                | 
+		| value         | int(11)     | NO   |     | NULL    |                | 
+		| room_id       | int(11)     | NO   | MUL | NULL    |                | 
+		| user_id       | int(11)     | NO   | MUL | NULL    |                | 
+		+---------------+-------------+------+-----+---------+----------------+ 
+		12 rows in set (0.03 sec)                                               
 
-	
