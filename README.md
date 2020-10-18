@@ -62,7 +62,7 @@
 	> 5.3 Add string method to Review model to show the review in admin panel
 
 
-## 6. Reservation
+## 6. Reservations
 
 	> 6.1 Create a reservations app and register it to settings
 	> 6.2 Create a Reservation model, setting the time (datetimg, timezone, TIME_ZONE = 'UTC') and run migration
@@ -88,4 +88,6 @@
 		8 rows in set (0.00 sec)    
 	> 6.3 Add string method to Reservation model to show the reservation in admin panel, and register the model to admin	                                          
 
+## 7. Lists
 
+	> 7.1 Create lists app and register it to settings
